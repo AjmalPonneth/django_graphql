@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class DjangoGraphqlConfig(AppConfig):
+class BooksConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'django_graphql'
+    name = 'books'
